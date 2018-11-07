@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="application/javascript" src="js/functions.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+	<title>Zupply box</title>
+</head>
+<body>
+<!-- header -->
+<div class="embraceFull">
+	<div class="headerBox clear">
+		<header class="mainHeader">
+			<div class="topHeader clear">
+			<div class="embrace clear">
+					<div class="topHeaderBox">
+						<div class="logoBox left">
+							<img src="images/logo.svg">
+						</div>
+						<nav class="mainNavigation left">
+							<ul id="listBox clear">
+								<li>
+									<a href="#">about</a>
+									<a href="#">payment</a>
+									<a href="#">logistic</a>
+									<a href="#">warhouses</a>
+									<a href="#">contacts</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="phoneBox clear right">
+							<div class="callBack right">
+								<!-- <form action="" id="callback">
+									<input type="text" name="callnumber" placeholder="Your phone">
+									<input type="submit" class="reCall" value="Call me">
+								</form> -->
+								<button id="reCallMe">CALL ME</button>
+							</div>
+							<div class="phoneNumber right">
+								+7 684-8850
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="embraceBottom clear spaceAround">
+				<div class="bottomHeader clear">
+					<div class="geoMenu left clear">
+						<div class="menuBox left">
+							<div class="productList">
+								<div class="openMenu menuButton" id="menuClosed">
+									<span class="menuName">
+										Product List
+									</span>
+								</div>
+									<div class="closeMenu" id="menuOpened">
+									<span class="menuName closeIt">
+										Return Page
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="warhouseBox left">
+							<p>Your warhouse :</p>
+							<a href="#" class="warhouseLink" id="warhouse">Washington D.C. #0013</a>
+						</div>
+					</div>
+					<div class="searchBox left clear">
+						<form action="#" method="post" class="searchForm clear">
+						  <select name="categories" id="catSelect">
+						  	<option value="0">All</option>
+						  	<option value="1">Paper product</option>
+						  	<option value="2">Can Liners</option>
+						  	<option value="3">Soap </option>
+						  	<option value="4">Cleaning</option>
+						  	<option value="5">Packaging</option>
+						  	<option value="6">Lunch room</option>
+						  	<option value="7">Gloves</option>
+						  </select>
+						  <input type="search" name="searchtext" placeholder="Search" class="searchText" />
+						  <input type="submit" name="searchbutton" value="J" class="searchSubmit" />
+						</form>
+					</div>
+					<div class="cartBox clear right">
+						<div class="cartZone right" id="cart">
+							<img src="images/box.svg" alt="Shopping box" id="shoppingBox">
+							<div class="cartCount" id="shoppingCounter">
+								<a href="#">12</a> products<br />
+								<a href="#">45.000 $</a>
+							</div>
+						</div>
+						<div class="pofileLink right">
+							<div class="profileBox clear">
+								<p>Hello! <a href="#">Sign In</a></p>
+								<p><a href="#">Create account</a></p>
+							</div>
+						</div>
+						<!-- opened cart minibox -->
+						<div class="miniCart" id="miniCart">
+							<div class="miniCartBox clear">
+								<div class="closeCart fill">W</div>
+								<div class="miniList">
+									<ul>
+										<li><a href="#">Cool Stuff</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Some Towels</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Cleaning Materials</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Another thing </a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Popatoes gum</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Material things</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Good Stuff</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Many little things</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Berry Pie Hemicals</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Another Unused Thing</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Body trainer</a><span class="deleteItem" id="del">`</span></li>
+										<li><a href="#">Socks for diving</a><span class="deleteItem" id="del">`</span></li>
+									</ul>
+								</div>
+								<div class="miniInfo">
+									<div class="minOrder"><span class="dollarLeft">50$</span>More to minimal order</div>
+									<div class="minFooter clear">
+										<div class="wishList">a</div>
+										<div class="checkOut">
+											<button id="checkOut">Checkout</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /opened cart minibox -->
+					</div>
+					<!-- mobile products list -->
+					<div class="categoryList clear" id="mobiCat">
+						<div class="showBox">
+							<div class="toggleButton childOff">Hide child</div>
+							<div class="toggleButton childOn">Show child</div>
+						</div>
+						<div class="catList">
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico1">
+										<img src="images/thumb.jpg">
+									</div>
+									<a href="" class="singleName">Paper product</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico2">
+										<img src="images/thumb5.jpg">
+									</div>
+									<a href="" class="singleName">Can Liners</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico3">
+										<img src="images/thumb8.jpg">
+									</div>
+									<a href="" class="singleName">Soap</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico4">
+										<img src="images/thumb3.jpg">
+									</div>
+									<a href="" class="singleName">Cleaning</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico5">
+										<img src="images/thumb4.jpg">
+									</div>
+									<a href="" class="singleName">Packaging</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico6">
+									<img src="images/thumb6.jpg">
+									</div>
+									<a href="" class="singleName">Lunch room</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+							<div class="singleMobile clear">
+								<div class="headingWrapper clear">
+									<div class="mobileIcon ico6">
+										<img src="images/thumb7.jpg">
+									</div>
+									<a href="" class="singleName">Gloves</a>
+								</div>
+								<ul class="childList">
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+									<li><div class="childIcon"><img src="images/thumb4.jpg"></div><a href="#">Child Category</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<!-- mobile products list end -->
+				</div>
+			</div>		
+		</header>
+	</div>
+</div>
+<!-- header end -->
+<!-- single page content -->
+<div class="emraceFull">
+	<div class="embrace clear singlePage">
+		<div class="listsExpl">
+			<h3 class="stipeHeading">Table list view</h3>
+			<div class="tableListBox clear">
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Code</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th></th>
+					</tr>
+					<tr>
+						<td>Towels for lowers</td>
+						<td>#0015</td>
+						<td>10$</td>
+						<td>20</td>
+						<td><input id="addToCart" class="addToCart" value="Add to cart" type="button"></td>
+					</tr>
+					<tr>
+						<td>Cool House</td>
+						<td>#0034</td>
+						<td>250$</td>
+						<td>2</td>
+						<td><input id="addToCart" class="addToCart" value="Add to cart" type="button"></td>
+					</tr>
+					<tr>
+						<td>Aamazing Camera</td>
+						<td>#0074</td>
+						<td>24$</td>
+						<td>12</td>
+						<td><input id="addToCart" class="addToCart" value="Add to cart" type="button"></td>
+					</tr>
+					<tr>
+						<td>Big kittle</td>
+						<td>#0347</td>
+						<td>200$</td>
+						<td>4</td>
+						<td><input id="addToCart" class="addToCart" value="Add to cart" type="button"></td>
+					</tr>
+				</table>
+			</div>
+			<h3 class="stipeHeading">Simple view</h3>
+			<div class="simpleViewBox clear">
+				<article class="simpleViewSingle clear">
+					<div class="miniThumb left">
+						<img src="images/thumb.jpg">
+					</div>
+					<div class="miniPrice left">100$</div>
+					<div class="miniName left">Towels to lowers</div>
+					<div class="miniQuantity left">5</div>
+					<div class="miniButton left">
+						<input id="addToCart" class="addToCart" value="Add to cart" type="button">
+					</div>
+				</article>
+				<article class="simpleViewSingle clear">
+					<div class="miniThumb left">
+						<img src="images/thumb2.jpg">
+					</div>
+					<div class="miniPrice left">250$</div>
+					<div class="miniName left">Good Home</div>
+					<div class="miniQuantity left">4</div>
+					<div class="miniButton left">
+						<input id="addToCart" class="addToCart" value="Add to cart" type="button">
+					</div>
+				</article>
+				<article class="simpleViewSingle clear">
+					<div class="miniThumb left">
+						<img src="images/thumb4.jpg">
+					</div>
+					<div class="miniPrice left">250$</div>
+					<div class="miniName left">Cool camera HD</div>
+					<div class="miniQuantity left">2</div>
+					<div class="miniButton left">
+						<input id="addToCart" class="addToCart" value="Add to cart" type="button">
+					</div>
+				</article>
+				<article class="simpleViewSingle clear">
+					<div class="miniThumb left">
+						<img src="images/thumb3.jpg">
+					</div>
+					<div class="miniPrice left">800$</div>
+					<div class="miniName left">Great kittle</div>
+					<div class="miniQuantity left">2</div>
+					<div class="miniButton left">
+						<input id="addToCart" class="addToCart" value="Add to cart" type="button">
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</div>	
+<!-- single page content end -->
+<!-- Footer -->
+<footer class="emraceFull">
+	<div class="embrace clear">
+		<div class="left footerLeft">
+			<div class="workingHours">
+				Working hours : <span class="workHours">8.00 - 23.00</span> &copy 2017 Zupply Box Inc. All rights reserved.
+			</div>
+			<div class="socialBox clear">
+				<a href="#" class="socialLink">Facebook</a>
+				<a href="#" class="socialLink">Twitter</a>
+				<a href="#" class="socialLink">Instagram</a>
+			</div>
+		</div>
+		<div class="right footerRight">
+			<div class="systemBox clear">
+				<ul class="systemMenu clear">
+					<li>
+						<a href="#">Privacy notice</a>
+					</li>
+					<li>
+						<a href="#">Condition of use</a>
+					</li>
+					<li>
+						<a href="#">Vacancy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="trustLogos">
+				<div class="trustIcon">;</div>
+				<div class="trustIcon"><</div>
+				<div class="trustIcon">:</div>
+			</div>
+		</div>
+	</div>	
+</footer>
+<!-- responsive and menu elemants -->
+
+
+
+
+
+<!-- scripts -->
+
+<!-- end scripts -->
+</body>
+</html>

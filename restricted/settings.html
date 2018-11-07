@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Settings</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="embrace clear">
+	<header class="clear">
+		<div class="fucntionalPanel left">
+			<select name="navigation" id="nav" class="nav">
+				<option value="1">Statistic</option>
+				<option value="2">Orders</option>
+				<option value="3">Settings</option>
+				<option value="4">Poroducts</option>
+				<option value="4">Warehouse</option>
+				<option value="4">Billing</option>
+				<option value="4">Users</option>
+				<option value="4">Team</option>
+			</select>
+			<i class="icons">fingerprint</i>
+		</div>
+		<div class="secureLabel right"><span>Logged as admin</span> <a href="#"><i class="icons">input</i></a></div>
+		<div class="secureLabel safe right"><i class="icons">lock</i>OverTrust Secure</div>
+	</header>
+	<div class="navigationEmbrace bg clear left">
+		<div class="workArea">
+			<div class="maximize" id="maximize"></div>
+			<div class="minimize" id="minimize"></div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Console</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+	</div>
+	<div class="content clear">
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="settings.html"><i class="icons">settings</i><li>Main settings</li></a>
+					<a href="settingstexts.html"><i class="icons">content_paste</i><li>Static texts</li></a>
+					<a href="settingsexport.html"><i class="icons">cloud_upload</i><li>Export</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="settingspages.html"><i class="icons">library_books</i><li>Pages</li></a>
+					<a href="settingsmenu.html"><i class="icons">playlist_add</i><li>Menu</li></a>
+					<a href="settingsbilling.html"><i class="icons">monetization_on</i><li>Billing</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<h2>Main settings<i class="icons">settings_applications</i></h2>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Site name</h3>
+					<input class="bottom" type="text" placeholder="Site name">
+					<input class="bottom" type="text" placeholder="Seo heading">
+					<input type="email" placeholder="Admin email">
+				</div>
+				<div class="boxOneThird">
+					<h3>Description</h3>
+					<textarea placeholder="Enter seo text"></textarea>
+				</div>
+				<div class="boxOneThird">
+					<h3>Analytics</h3>
+					<input type="text" placeholder="Google Analytics">
+				</div>
+			</div>
+		</div>
+		<div class="contentBox clear">
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Comments</h3>
+					<div class="radioBox">
+						<p>
+							<input id="r1" name="comments" type="radio">
+							<label for="r1"> <span></span> Allow </label>
+						</p>
+						<p>
+							<input id="r2" name="comments" type="radio">
+							<label for="r2"> <span></span> Disallow </label>
+						</p>
+					</div>
+				</div>
+				<div class="boxOneThird">
+					<h3>Comments avatar</h3>
+					<div class="radioBox">
+						<p>
+							<input id="r3" name="avatars" type="radio">
+							<label for="r3"> <span></span> Show </label>
+						</p>
+						<p>
+							<input id="r4" name="avatars" type="radio">
+							<label for="r4"> <span></span> Hide </label>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contentBox clear">
+			<input class="fat" type="submit" value="Save settings">
+		</div>
+
+	</div>
+</div>
+</body>
+</html>

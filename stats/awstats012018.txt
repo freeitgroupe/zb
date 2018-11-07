@@ -1,0 +1,945 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 8520                
+POS_DAY 19769               
+POS_DOMAIN 3468                
+POS_LOGIN 3703                
+POS_ROBOT 3858                
+POS_WORMS 4260                
+POS_EMAILSENDER 4391                
+POS_EMAILRECEIVER 4534                
+POS_SESSION 20635               
+POS_SIDER 20847               
+POS_FILETYPES 4669                
+POS_OS 5105                
+POS_BROWSER 5291                
+POS_SCREENSIZE 5673                
+POS_UNKNOWNREFERER 5747                
+POS_UNKNOWNREFERERBROWSER 6541                
+POS_ORIGIN 6818                
+POS_SEREFERRALS 6960                
+POS_PAGEREFS 7126                
+POS_SEARCHWORDS 7363                
+POS_KEYWORDS 7515                
+POS_MISC 2217                
+POS_ERRORS 7574                
+POS_CLUSTER 3559                
+POS_SIDER_404 7744                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201002629 16436 4143848 45834882702
+FirstTime 20180101034458
+LastTime 20180131201542
+LastUpdate 20180201021247 16436 15472 963 0 0
+TotalVisits 443                 
+TotalUnique 288                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 294                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 13 192457 2 2 50
+1 123 209 7212693 12 12 40381
+2 563 1551 41041744 52 54 12195126
+3 847 1721 49640632 66 71 7615079
+4 343 488 12538939 20 20 53243
+5 384 1032 31428425 29 31 19110728
+6 751 1192 34622239 60 60 41536126
+7 462 1090 53169151 26 26 20917570
+8 442 1050 37329117 23 23 17225805
+9 535 1106 31768923 25 25 22660034
+10 303 684 19121653 21 23 6624253
+11 482 1015 40281566 66 69 66440006
+12 304 512 13032876 14 18 4800256
+13 353 492 10838624 10 10 26390
+14 167 314 8451517 33 33 4570594
+15 280 541 12483257 34 34 13020827
+16 144 461 12428409 32 32 20118129
+17 182 523 13901048 40 42 8133646
+18 308 436 11258500 43 52 8443357
+19 262 384 10112405 33 91 8960752
+20 72 137 3200054 11 11 53480
+21 72 168 5551611 10 10 182806
+22 31 112 3601038 6 7 2499064
+23 79 213 5134804 6 7 6338662
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 7497 15444 468341682
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[+:,\.\;\/\\-] 12 300 20180131092340 12
+no_user_agent 11 840304 20180130120520 0
+unknown 8 200 20180124131034 8
+googlebot 4 100 20180127055117 4
+yandex 3 75 20180126051709 3
+core 2 51091 20180131153104 0
+surveybot 2 50 20180131070835 2
+phantom 1 207 20180131133420 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+css 1678 62052950 0 0
+txt 8 1656 0 0
+woff2 183 8110004 0 0
+woff 194 2046384 0 0
+2 1 207 0 0
+json 4 1392 0 0
+map 91 49339654 0 0
+php 557 3631272 0 0
+1 3 621 0 0
+bar 1 207 0 0
+mp4 40 4595988 0 0
+html 1131 50247490 0 0
+0 1 207 0 0
+jpg 2282 63661081 0 0
+6 2 414 0 0
+png 1425 22251788 0 0
+js 2341 104237996 0 0
+jpeg 1 7961 0 0
+Unknown 4919 96120853 0 0
+gif 220 1261677 0 0
+svg 361 771673 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 12
+winxp 111
+win2000 17
+winnt 3213
+win98 11
+winvista 12
+linux 337
+winme 8
+macosx 107
+win95 16
+wince 5
+win2003 18
+Unknown 61
+win2008 11516
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+firefox50.0 5
+msie6.0 79
+firefox57.0 1598
+firefox32.0 1
+firefox15.0 4
+chrome 13353
+opera 50
+firefox29.0 9
+firefox34.0 19
+firefox7.0.1 7
+firefox31.0 1
+msie8.0 6
+msie11.0 5
+firefox33.0 2
+mozilla 6
+firefox37.0 17
+netscape5.0 20
+msie7.0 18
+msie10.0 11
+msie5.0 6
+msie9.0 3
+Unknown 22
+firefox36.0 10
+firefox35.0 8
+safari 159
+netscape 25
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20180124013740
+Scrapy/1.0.3_(_http://scrapy.org) 20180106122207
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12l;__http://researchscan.comsys.rwth-aachen.de) 20180127105527
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180122164737
+Mozilla/5.0 20180131151508
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20180122063620
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13l;__http://researchscan.comsys.rwth-aachen.de) 20180127080808
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20180107035227
+Mozilla/5.0_zgrab/0.x 20180113151832
+Mozilla/5.0_zgrab/0.x_--_We_are_scanning_for_research,_further_information_at_http://researchscan.comsys.rwth-aachen.de/_-- 20180120111235
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Scrapy/1.0.3_(_http://scrapy.org) 20180106122207
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20180122063620
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20180107035227
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 959 1014
+From1 3 3
+From2 8 8
+From3 5 5
+From4 6522 14414
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://github.com 2 2
+http://zupplybox.com.seocheckupx.net 2 2
+http://robotixix.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 10 2433
+302 279 279664
+206 220 289810313
+500 98 545585
+406 7 1820
+404 96 31872
+301 10 2350
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 9
+/admin/edit-pages/2 2 http://zupplybox.com/admin/static-pages
+/admin/video/del.jpg 81 http://zupplybox.com/admin/settings
+/admin/edit-pages/new 5 http://zupplybox.com/admin/static-pages
+/admin/edit-comment/1 1 http://zupplybox.com/admin/comments
+/admin/edit-static-pages/2 1 -
+/admin/pages/new 1 -
+/admin/%3C 2 http://zupplybox.com/admin/settings
+/admin/settings 2 http://zupplybox.com/admin/edit-pages/2
+/admin/edit-pages/1 1 http://zupplybox.com/admin/static-pages
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 294
+193.111.156.142 3694 7806 271706538 20180131035601
+73.169.211.60 1617 2719 65324152 20180131113308
+188.163.86.188 734 1628 42376807 20180127105901
+188.163.87.216 520 1049 25750911 20180130154102
+46.160.71.23 185 736 21987631 20180130173957
+158.69.228.184 92 143 2525905 20180121070351
+104.192.74.19 50 50 1866780 20180124013740
+172.93.98.194 48 108 2668806 20180117061931
+91.217.101.202 47 125 2923835 20180126002801
+158.69.228.225 29 77 1809350 20180121084149
+113.88.110.248 1 1 207 20180122185657
+96.9.69.164 1 1 207 20180120180029
+24.174.198.85 1 1 207 20180131133449
+99.194.8.233 1 1 207 20180131133450
+174.127.133.98 2 4 44668 20180105001535
+144.76.176.72 1 1 207 20180122185525
+46.150.174.192 1 1 207 20180122185521
+125.162.53.42 1 1 207 20180120180155
+217.182.66.255 1 1 50884 20180118233040
+5.135.142.60 1 1 207 20180120175938
+106.120.213.31 1 1 207 20180131133529
+54.185.236.123 1 1 207 20180125092052
+77.55.218.191 0 1 207 
+138.185.154.94 1 1 207 20180122185611
+54.91.175.82 1 1 207 20180122185501
+174.127.133.99 12 18 542146 20180105001212
+51.15.2.43 1 1 207 20180128035540
+146.196.54.186 1 1 207 20180120180040
+66.249.81.63 0 1 1836 
+52.67.175.112 1 1 83078 20180113120459
+58.26.54.226 2 2 414 20180131133506
+50.234.252.44 2 2 165862 20180103191644
+99.194.147.120 1 1 207 20180120175942
+213.219.165.144 1 1 207 20180122190724
+201.183.227.197 1 1 207 20180131133720
+99.194.115.99 1 1 207 20180131133604
+80.91.19.149 1 1 207 20180122185608
+137.226.113.28 2 2 131370 20180127080808
+95.110.194.245 1 1 207 20180122185513
+46.242.72.248 4 66 2497142 20180110050643
+101.128.73.201 1 1 207 20180128035526
+67.94.57.16 1 1 207 20180128035518
+182.16.175.2 1 1 207 20180122185459
+178.134.216.46 1 1 207 20180122185520
+220.143.166.38 1 1 207 20180122185532
+36.37.180.59 1 1 207 20180131133553
+217.182.192.197 1 1 207 20180130034443
+174.70.241.8 1 1 207 20180128035559
+39.137.21.38 1 1 207 20180120181214
+37.187.116.199 1 1 207 20180128035611
+95.181.177.191 1 1 82931 20180105180806
+115.29.192.43 1 1 207 20180128035526
+68.184.87.81 1 1 207 20180120180005
+175.208.122.10 1 1 207 20180120180930
+174.127.133.73 2 2 5153 20180130202552
+73.237.110.66 1 1 207 20180131133558
+45.251.228.194 1 1 207 20180122190319
+106.120.161.66 1 1 51092 20180124050518
+178.208.0.214 1 1 50884 20180120175947
+182.253.38.76 1 1 50884 20180122185514
+161.69.99.11 3 3 144876 20180126170445
+116.228.44.2 1 1 207 20180128035531
+66.110.216.105 1 1 207 20180120180114
+201.222.55.34 1 1 207 20180122185542
+95.183.12.201 1 1 50884 20180122215444
+95.154.70.151 1 1 207 20180122185500
+112.91.59.106 2 2 414 20180104015858
+117.57.242.238 1 1 207 20180120175959
+139.224.104.120 1 1 207 20180128040359
+171.13.14.145 1 29 1012417 20180124050647
+189.84.113.180 1 1 207 20180122185514
+70.166.38.71 1 1 207 20180131133449
+62.210.111.11 1 1 207 20180127212259
+174.127.133.100 3 6 76161 20180104235926
+40.86.100.91 1 1 50884 20180122123203
+118.193.26.18 1 1 207 20180131133505
+183.240.92.12 1 1 207 20180131133604
+173.0.81.1 2 2 165862 20180106122207
+62.159.193.83 1 1 207 20180131133649
+5.202.191.130 1 1 207 20180122185514
+61.160.190.146 1 1 207 20180128035547
+99.194.153.51 1 1 207 20180131133521
+192.30.85.244 1 1 50901 20180120180122
+186.101.136.10 1 1 207 20180122185702
+212.71.244.76 1 1 207 20180120180006
+79.106.35.66 1 1 207 20180120175940
+54.89.67.151 1 1 207 20180122185607
+174.127.133.103 2 7 203062 20180104225022
+119.251.190.179 1 1 207 20180122185505
+66.78.39.121 1 1 50884 20180122164232
+182.139.163.133 1 1 207 20180122190206
+61.191.85.0 1 1 207 20180128035556
+50.244.39.121 2 2 51091 20180122185457
+96.9.79.140 1 1 207 20180122185506
+54.183.130.127 8 8 530262 20180130011102
+159.203.196.79 1 1 50884 20180120180145
+117.60.221.17 1 1 207 20180122185530
+125.162.241.6 1 1 207 20180122185511
+138.94.94.51 1 19 772277 20180126135715
+171.255.199.129 1 1 207 20180120180126
+173.249.15.107 1 1 207 20180128040534
+78.129.252.43 1 1 207 20180131133512
+195.242.80.32 1 1 51100 20180124175217
+139.199.49.13 2 2 414 20180131133614
+31.179.240.169 1 1 207 20180122185602
+67.198.133.2 1 1 207 20180131133535
+63.155.120.97 1 1 207 20180131135610
+174.64.234.14 1 1 207 20180128035647
+77.54.250.116 1 1 207 20180120175944
+119.28.128.206 1 1 207 20180128035652
+103.14.27.174 1 1 207 20180120175941
+23.101.61.176 1 2 57986 20180127192946
+189.195.162.222 1 1 207 20180122185548
+190.15.222.53 1 1 207 20180128040639
+107.173.33.61 1 1 82931 20180103041702
+173.249.0.222 1 1 207 20180122190622
+193.200.82.210 1 1 207 20180122185633
+58.181.39.182 1 1 207 20180131133542
+35.201.139.120 1 1 207 20180128035531
+158.46.214.159 1 1 51091 20180125023829
+173.0.82.126 17 17 402671 20180107035227
+221.7.255.168 1 1 207 20180122185536
+185.111.44.73 1 1 207 20180120180011
+103.73.225.84 5 5 102812 20180124131103
+198.23.143.25 1 1 207 20180122185536
+35.227.94.217 2 2 165862 20180110181135
+119.49.83.112 1 1 207 20180120180246
+202.169.52.205 1 1 207 20180131133434
+137.226.113.27 2 2 166156 20180113151832
+207.224.15.28 1 1 207 20180120180106
+90.155.183.25 1 1 207 20180122185616
+186.88.225.237 1 1 207 20180128041333
+138.197.183.207 10 13 252580 20180125023553
+159.203.33.48 8 8 1656 20180127095811
+54.183.58.31 1 1 207 20180120175928
+5.2.222.230 1 1 207 20180120180055
+40.86.103.136 1 1 50884 20180122105210
+66.102.6.75 2 22 613188 20180131112905
+183.240.92.138 0 1 207 
+185.184.1.160 1 1 207 20180128035531
+183.159.84.137 1 1 207 20180128035554
+188.226.129.55 1 1 47635 20180131050501
+66.102.6.73 3 13 270199 20180130051851
+24.249.199.14 1 1 207 20180128041312
+212.83.165.202 0 1 207 
+104.192.0.58 2 2 165862 20180106123908
+167.160.109.36 1 1 47760 20180128064601
+203.189.135.107 2 2 51091 20180128035741
+60.177.228.54 1 1 207 20180128035610
+101.200.89.170 1 1 207 20180122185702
+174.127.133.72 4 5 87642 20180130202632
+89.248.172.234 1 1 207 20180128035525
+66.102.9.31 1 1 82931 20180104064122
+213.202.253.21 1 1 207 20180120182109
+91.185.32.46 1 1 207 20180122185526
+185.101.238.21 1 1 207 20180128035658
+186.83.66.119 1 1 47777 20180128035606
+31.7.225.31 1 1 207 20180120180125
+58.60.255.134 1 1 207 20180120180013
+174.127.133.71 6 7 125184 20180130201647
+52.165.150.117 1 1 47760 20180128072010
+188.163.108.233 1 1 207 20180112070345
+177.22.81.91 1 1 207 20180128035545
+51.15.92.24 5 5 166483 20180106123917
+114.215.102.168 1 1 207 20180122185503
+138.197.202.197 1 1 207 20180120180145
+18.218.90.60 1 1 207 20180113233440
+91.199.67.2 1 1 207 20180128035720
+112.114.76.252 1 1 207 20180128035618
+99.194.101.200 1 1 207 20180120175939
+191.253.16.134 1 1 207 20180122190004
+103.251.164.13 1 1 207 20180131133646
+183.89.82.89 1 1 207 20180131133521
+42.52.14.176 1 1 207 20180131133507
+117.64.50.177 1 1 207 20180120175940
+117.159.84.143 2 2 414 20180101164754
+220.181.165.7 1 1 207 20180120180035
+77.111.244.62 5 53 1575826 20180123084803
+176.31.50.61 1 1 207 20180131133621
+114.100.185.155 1 1 207 20180131133520
+184.178.172.5 1 1 207 20180128035627
+114.69.244.6 1 1 207 20180122185606
+176.193.183.133 4 66 2497142 20180106035437
+213.6.40.142 1 1 207 20180131133454
+5.226.70.68 1 1 207 20180122185539
+45.77.181.153 2 2 47842 20180131133614
+110.83.60.114 1 1 83078 20180115154803
+174.127.133.106 2 4 61530 20180104223655
+186.103.239.190 1 1 207 20180120180137
+40.78.146.128 1 1 56150 20180127194930
+138.122.2.7 1 1 50901 20180122185549
+186.195.37.42 1 1 207 20180131133436
+174.127.133.21 4 4 230061 20180130202120
+217.182.92.162 1 1 207 20180122185515
+95.27.172.52 4 71 3194205 20180102032222
+190.13.106.93 2 2 414 20180109070539
+144.217.102.236 1 1 207 20180122185509
+158.69.225.34 1 1 50884 20180122164737
+61.94.143.119 1 1 207 20180122185553
+176.10.99.200 1 1 207 20180120182145
+27.44.183.181 1 1 207 20180120180027
+114.143.167.198 1 1 51091 20180125054624
+66.220.145.150 1 1 6779 20180111130451
+52.19.32.153 10 10 390924 20180103133905
+54.87.223.42 1 1 48123 20180129054434
+69.171.228.120 1 1 6779 20180122063620
+174.34.177.250 1 1 207 20180131134445
+75.151.213.85 2 2 414 20180122185545
+36.80.127.185 1 1 207 20180128035557
+138.59.232.1 1 1 207 20180131133532
+46.218.73.162 1 1 207 20180120180012
+46.42.160.171 4 47 1653309 20180101034502
+103.251.164.12 1 1 207 20180131133726
+41.211.126.99 1 18 768765 20180119022241
+176.235.11.6 1 1 207 20180128035646
+174.127.133.105 2 3 50241 20180104235335
+142.44.240.106 1 1 207 20180128035549
+38.100.21.78 9 11 292814 20180117184754
+186.227.8.21 1 1 207 20180120180026
+114.253.49.85 1 1 207 20180128035523
+174.127.133.75 1 1 48123 20180130184206
+80.211.249.13 1 1 207 20180131133549
+122.140.104.166 1 1 207 20180120180031
+91.121.70.58 1 1 82931 20180111183620
+90.103.89.12 1 1 207 20180128041303
+217.150.61.53 1 1 207 20180122185531
+82.115.13.165 2 2 414 20180120180103
+96.9.90.124 1 1 207 20180128035520
+104.45.18.178 1 3 52207 20180128082223
+18.220.155.50 1 1 207 20180112194513
+66.102.9.14 1 2 84767 20180102030410
+76.0.177.230 1 1 207 20180131135733
+88.147.244.124 1 1 207 20180128035539
+213.181.199.188 1 1 207 20180122185502
+174.127.133.74 10 11 2634630 20180130202115
+175.139.252.193 1 1 207 20180122185520
+36.67.20.251 1 1 207 20180122185513
+203.146.170.200 1 1 207 20180128035607
+66.102.9.17 0 1 1836 
+67.237.33.64 1 1 207 20180131133553
+110.77.219.7 1 1 207 20180122185521
+159.89.202.33 1 1 207 20180120175940
+175.42.44.173 0 1 207 
+116.206.14.100 8 33 871513 20180124070252
+59.14.186.156 1 1 207 20180131133615
+180.97.106.144 1 1 207 20180128040449
+95.110.186.48 1 1 207 20180128035558
+66.249.81.61 2 3 167698 20180110034543
+108.179.54.170 1 1 207 20180131135819
+185.35.137.184 1 1 207 20180128035528
+139.59.153.59 1 1 207 20180122185534
+158.46.167.143 1 1 82931 20180104085938
+66.102.6.77 3 22 669490 20180129163646
+35.185.143.88 1 1 207 20180128040658
+223.220.138.194 1 1 207 20180131133435
+117.36.103.170 2 2 414 20180122185507
+174.64.234.7 1 1 207 20180120180009
+117.141.18.70 1 1 207 20180122185534
+78.94.172.42 1 1 47760 20180128035601
+88.101.88.19 1 1 207 20180131133613
+5.189.135.164 1 1 207 20180122185500
+115.248.0.29 1 1 207 20180131133717
+151.106.15.6 1 1 47652 20180131133611
+143.0.191.2 1 1 207 20180128035619
+137.226.113.26 8 8 498029 20180127105527
+193.111.199.35 2 2 414 20180107165205
+61.134.29.13 1 1 207 20180131133442
+174.64.234.19 1 1 207 20180120180053
+172.58.40.169 14 75 1824757 20180128164219
+149.202.0.60 1 1 207 20180128041433
+66.102.6.156 1 1 47495 20180127195813
+186.46.90.50 1 1 207 20180128035547
+117.64.52.197 1 1 207 20180131133631
+134.119.223.242 1 1 207 20180131133605
+196.223.140.170 1 1 207 20180122185623
+174.127.133.104 3 5 128160 20180104235625
+165.227.105.146 2 2 414 20180111050924
+78.46.213.152 1 1 207 20180131133434
+136.243.201.249 1 1 207 20180122185544
+104.209.188.207 1 3 52207 20180128051040
+110.243.19.210 1 1 207 20180122185624
+173.252.88.247 1 1 6779 20180102211659
+181.215.32.250 1 1 47635 20180131042416
+176.192.78.22 3 3 621 20180131133549
+59.125.5.50 1 1 207 20180122185550
+138.117.121.10 1 1 207 20180120182144
+193.106.30.99 18 18 3726 20180131201542
+107.172.48.172 1 1 207 20180122190852
+74.222.79.57 2 2 414 20180120180155
+60.177.225.181 1 1 207 20180131135848
+164.132.222.249 1 1 207 20180131135743
+13.56.229.65 10 10 682847 20180129053425
+101.199.108.120 1 1 51092 20180124050606
+51.15.95.136 1 1 0 20180126075904
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180101 6 49 1653723 2
+20180102 33 245 9158400 8
+20180103 12 12 556786 3
+20180104 40 132 4278893 14
+20180105 37 110 3588888 6
+20180106 160 357 10348931 14
+20180107 97 166 3981133 4
+20180108 110 209 5484429 3
+20180109 13 76 2739143 6
+20180110 14 139 5321273 4
+20180111 4 4 172848 4
+20180112 149 255 7710666 4
+20180113 6 6 415597 5
+20180115 115 421 12692659 5
+20180116 57 199 6546592 2
+20180117 1916 3774 145371326 8
+20180118 232 552 27021677 4
+20180119 2 19 819649 2
+20180120 53 54 467288 50
+20180121 152 318 6773596 3
+20180122 406 820 19818966 71
+20180123 96 342 9312221 8
+20180124 627 1050 31236245 14
+20180125 970 1734 44908116 11
+20180126 517 1025 26664242 15
+20180127 430 754 17927499 14
+20180128 680 1069 23432501 62
+20180129 179 637 15450149 17
+20180130 225 566 16870397 23
+20180131 159 350 7617849 57
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 18
+5mn-15mn 18
+2mn-5mn 8
+30s-2mn 23
+15mn-30mn 14
+0s-30s 348
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 299
+/category/1 2205 1573349 0 64
+/ 708 41590525 168 85
+/admin/product-options 293 7888781 2 8
+/admin/js/kcfinder/browse.php 241 265810 0 0
+/images/logo.svg 181 576215 3 4
+/images/box.svg 178 185566 1 0
+/login 147 4008434 0 1
+/checkout 138 3701950 2 3
+/category/category_8 134 5370794 2 1
+/fonts/box.woff 132 790636 1 3
+/admin/edit-warehouse/2 3 51519 0 0
+/forget 7 229969 0 0
+/product/windex-glass-cleaner-32oz 4 209746 0 0
+/modules/columnadverts/uploadimage.php 1 207 1 1
+/manifest.json 3 1185 0 0
+/admin/add-product/new 87 3214356 0 1
+/category/category_6 78 3260439 5 4
+/wp-content/plugins/dzs-videogallery/upload.php 8 1656 8 8
+/admin/settingstexts.html 1 14999 0 0
+/admin/product-options/ 29 951855 1 0
+/category/category_1_1 3 111038 0 0
+/wp-content/plugins/cardoza-facebook-like-box/cardoza_facebook_like_box.php 3 621 3 3
+/page/contact-us 7 267011 0 0
+/xmlrpc.php 2 414 1 1
+/admin/edit-category-product/test 3 69850 0 0
+/media/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff 31 1112564 0 0
+/admin/settings 119 1864239 0 1
+/admin/warehouse-options/ 24 514667 0 0
+/detail-orders/53 2 93606 0 0
+/admin/edit-category-product/category_6 1 24085 0 0
+/media/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2 5 287584 0 0
+/product/glove-nitrile-blu 4 242781 0 0
+/wp-content/plugins/dzs-videogallery/admin/upload.php 9 1863 9 9
+/backups.php 1 207 1 1
+/site/CHANGELOG.txt 1 207 0 0
+/page/privacy-policy 7 406821 2 2
+/admin/css/font/i.woff2 125 5238200 0 1
+/page/test-page 4 116046 0 0
+/wp-login.php 12 2484 9 8
+/wp-content/plugins/dzs-portfolio/upload.php 9 1863 8 9
+/category/odor-control 19 683335 1 0
+/admin/product-import 25 337074 0 0
+/category/category_4 14 505148 1 3
+/admin/edit-product/hydrogen-peroxide-multi-purpose-cleaner 7 271748 0 0
+/resumes/register/ 1 207 1 1
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 6 1242 6 6
+/admin/edit-team/1 5 55729 0 0
+/admin/js/kcfinder/themes/default/js.php 18 456 0 0
+/admin/edit-warehouse/1 7 120927 0 0
+/detail-orders/24 1 45060 0 0
+/components/com_sexycontactform/fileupload/index.php 3 621 3 3
+/admin/edit-users/1 1 10376 0 0
+/images/defau1t.php 1 207 1 1
+/modules/homepageadvertise/uploadimage.php 2 414 2 2
+/blog/CHANGELOG.txt 1 207 0 1
+/page/delivery 3 110535 0 0
+/category/category/1 1 36735 1 0
+/admin/category-fields/ 21 299609 0 0
+/detail-orders/50 7 423620 0 0
+/product/high-density-liner-40x48 7 397944 0 0
+/product/product-test_15 4 170299 0 0
+/category/category_5 50 1875888 0 0
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 2 414 2 2
+/wp-content/plugins/codecanyon-157782-video-gallery-wordpress-plugin-w-youtube-vimeo-/upload.php 3 621 3 3
+/yt.php 1 207 1 1
+/media/revolution/js/extensions/1.3.1 2 414 0 2
+/product/provon-foaming-handwash-535ml 5 304521 0 0
+/admin/edit-warehouse/new 8 130105 0 0
+/product/microfiber-glass-window-and-mirror-towel 7 397863 0 0
+/product/ar1039 6 360263 0 0
+/admin/edit-pages/1 22 290155 0 0
+/admin/edit-category-product/odor-control 7 166486 0 0
+/page/return-policy 5 177972 0 0
+/product/towel-tork-multifold-white-ecologo 4 240768 0 0
+/product/gojo-premium-foam-handwash-with-skin-conditioners 4 245010 0 0
+/detail-orders/10 2 90131 0 0
+/admin/upsell/ 2 19054 0 0
+/admin/edit-product/microfiber-glass-window-and-mirror-towel 6 234119 0 0
+/wp-admin/admin-post.php 10 2070 10 10
+/modules/simpleslideshow/uploadimage.php 2 414 2 2
+/admin/js/kcfinder/upload.php 4 1547 0 0
+/wp-content/plugins/real3d-flipbook/includes/process.php 7 1449 7 7
+/modules/pk_vertflexmenu/ajax/upload.php 2 414 2 2
+/feed/ 1 207 1 1
+/shop/CHANGELOG.txt 1 207 0 0
+/.ftpconfig 1 207 1 0
+/admin/settings-statictext 23 238186 0 0
+/product/enmotion-towel 8 451599 0 0
+/forum/CHANGELOG.txt 1 207 0 0
+//wp-content/plugins/dzs-videogallery/upload.php 1 207 1 1
+/admin/category-fields 14 212014 0 1
+/safari-pinned-tab.svg 2 9892 1 2
+/media/revolution/js/1.1.0 2 414 0 1
+/admin/edit-product/comet-w-bleach 3 117260 0 0
+/wp-content/plugins/page-google-maps/pr.php 5 1035 5 5
+/admin/edit-product/mandarin-cranberry-premium-foam-soap 4 157721 0 0
+/drupal/CHANGELOG.txt 1 207 0 0
+/product/hydrogen-peroxide-multi-purpose-cleaner 7 386166 0 0
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/single-upload.php 3 621 3 3
+/admin/users 30 416498 0 0
+/admin/edit-category-product/avava-24 2 46246 0 0
+/admin/category-product-options/ 127 2862436 1 0
+/wp-content/plugins/wp-handy-lightbox/begin.php 3 621 3 3
+/admin/stock 22 352280 0 0
+/modules/fieldvmegamenu/ajax/upload.php 1 207 1 1
+/product/foam-all-hand-body-soap 2 115023 0 0
+/category/silovoe-oborudovanie1 4 147896 0 0
+/admin/edit-category-fields/category_al_1 16 424714 0 2
+/admin/edit-product/purell-advanced-hand-sanitizer 9 368063 0 0
+/admin/edit-product/towel-tork-multifold-white-ecologo 6 230755 0 0
+/product/ 1 207 0 0
+/lieats.php 1 207 1 1
+/modules/wdoptionpanel/wdoptionpanel_ajax.php 2 414 2 2
+/admin/upsell 36 667898 0 0
+/admin/edit-category-product/category_3 7 167092 0 0
+/admin/ 63 1186079 5 0
+/modules/attributewizardpro/file_upload.php 2 414 2 2
+/product/mandarin-cranberry-premium-foam-soap 1 59471 0 0
+/admin/edit-static-pages/1 4 54493 0 0
+/admin/export/ 4 36189 0 0
+/admin/edit-category-product/category_8 11 261237 0 0
+/admin/edit-category-product/new 24 570118 0 1
+/admnin/edit-warehouse/new 3 621 0 0
+/admin/edit-static-pages/2 3 40947 0 0
+/category/test 6 222283 0 0
+/pay-ipn 9 180920 2 3
+/page/kak-kupit 4 159162 0 0
+/admin/edit-static-pages/6 5 60168 0 0
+/js/foo.bar 1 207 1 1
+/admin/edit-pages/2 26 352101 0 0
+/admin/edit-product/ar1036 6 229394 0 0
+/page/test_1 30 1113234 0 0
+/wp-load.php 1 207 1 1
+/media/revolution/js/extensions/2.0.1 1 207 0 0
+/admin/static-pages 89 1596581 0 1
+/product/purell-advanced-hand-sanitizer 2 127218 0 0
+/admin/edit-product/top-clean-neutral-cleaner 6 231225 0 0
+/wp-rdf.php 1 207 1 1
+/wish-list 21 1107454 0 0
+/admin/js/kcfinder/js_localize.php 24 45435 0 0
+/admin/edit-category-product/category_al_1 9 210264 0 0
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 5 1035 5 5
+/admin/edit-pages/6 1 12267 0 0
+/wp-content/plugins/contus-hd-flv-player/uploadVideo.php 4 828 4 4
+/admin/edit-category-product/category_4 4 96023 0 0
+/wp-content/plugins/gallery-plugin/upload/php.php 2 414 2 2
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 3 621 3 3
+/admin/js/kcfinder/themes/default/css.php 18 374532 0 0
+/product/high-density-liner-43x48 2 120017 0 0
+/product/windex-glass-cleaner-1-gl 2 119344 0 0
+/category/dispensers 9 331218 0 0
+/store/CHANGELOG.txt 1 207 0 0
+/product/gojo-tfx-dispenser 4 227670 0 0
+/media/revolution/js/3.0.6 2 414 0 1
+/admin/edit-product/test1 3 111915 0 0
+/media/assets/videos/fit_edit.mp4 1 0 1 1
+/wp-content/plugins/cardoza-facebook-like-box/custom-css/xo.php 3 621 3 3
+/admin/edit-product/coreless-toilet-tissue-2-ply 2 76770 0 0
+/product/top-clean-neutral-cleaner 2 108218 0 0
+/contact 1 207 1 1
+/wp-content/plugins/wp-symposium/server/php/index.php 3 621 2 3
+/registration 24 926005 0 0
+/admin/edit-order/5 1 19392 0 1
+/admin/edit-pages/4 1 12247 0 0
+/admin/edit-category-product/funktsionalnye-konstruktsiya1 4 94615 0 0
+/admin/js/kcfinder/js/index.php 18 2882640 0 0
+/wp-content/plugins/mailpress/mp-includes/action.php 3 621 3 3
+/admin/edit-stock/23 6 88750 0 0
+/admin/edit-product/enmotion-towel 2 78713 0 0
+/js/keyup. 2 414 1 1
+/wp-content/plugins/simple-dropbox-upload-form/dragup/ 3 621 3 3
+/product/disposable-urinal-floor-mat 4 230706 0 0
+/detail-orders/51 3 98094 0 0
+/wp-admin/post.php 4 828 4 4
+/admin/edit-product/gojo-premium-foam-handwash-with-skin-conditioners 6 241251 0 0
+/modules/vtemslideshow/uploadimage.php 2 414 2 2
+/admin/edit-pages/5 3 36762 0 0
+/product/pink-hand-soap 10 563367 0 1
+/admin/edit-product/high-density-liner-43x48 10 349596 0 0
+/page/call 22 880573 0 1
+/admin/export 85 13724334 1 1
+/admin/edit-category-product/category_7 6 143037 0 0
+/category/category_al_1 96 3713868 5 1
+/user/register 1 207 0 1
+/wp-content/plugins/google-maps-by-daniel-martyn/inuse.php 5 1035 5 5
+/cache/cachee.php 1 207 1 1
+/admin/warehouse 9 204531 0 0
+/page/terms-and-conditions 2 143708 0 0
+/wp-content/plugins/wp-handy-lightbox/install.php 1 207 1 1
+/category/box1 4 147692 0 0
+/product/toilet-tissue-universal-2-ply 3 170106 0 0
+/phpinfo.php 1 207 1 1
+/LICENSE.php 1 207 1 1
+/admin/include/bower_components/bootstrap/dist/css/bootstrap.min.css.map 91 49339654 0 0
+/admin/edit-product/affinity-manual-soap-dispenser-1-25-l 4 155245 0 0
+/admin/edit-upsell/16 3 31980 0 0
+/admin/team 17 248489 0 0
+/fonts/i.woff2 22 809540 0 0
+/admin/edit-product/towel-multifold-white-scottfold 5 197062 0 0
+/product/urinal-screen-wave-3d 26 1441059 1 0
+/profile 8 314590 0 0
+/wp-content/themes/version.php 1 207 1 1
+/admin/edit-category-product/category_1_1 1 23716 0 0
+/wp-admin/admin-ajax.php 33 6831 33 32
+/admin/category-product-options 85 1997912 2 1
+/admin/edit-product/provon-foaming-handwash-535ml 9 352962 0 0
+/page/guarantee 3 73737 0 0
+/media/media.php 1 207 1 1
+/category/ 7 1449 0 1
+/wp-content/uploads/wpstorecart/q17Ba.php 1 207 1 1
+/admin/comments 15 455488 0 0
+/logout 3 621 0 0
+/1.php 1 207 1 1
+/category/funktsionalnye-konstruktsiya1 4 147969 0 0
+/admin/edit-static-pages/5 5 104302 0 1
+/category/category_2 15 568963 4 0
+/wp-register.php 1 207 1 1
+/product/avava 1 49827 1 0
+/admin/edit-product/windex-glass-cleaner-32oz 6 229614 0 0
+/admin/edit-product/high-density-liner-40x48 10 392817 0 0
+/wp-json/wp/v2/users/ 1 207 0 0
+/product/coreless-toilet-tissue-2-ply 1 54079 0 0
+/.vscode/ftp-sync.json 1 207 0 1
+/admni/edit-warehouse/new 1 207 0 0
+/wp-content/plugins/gallery-slider/register.php 2 414 2 2
+/media/revolution/fonts/revicons/revicons.woff 31 143184 0 1
+/wp-content/plugins/font-uploader/font-upload.php 3 621 3 3
+/test/CHANGELOG.txt 1 207 0 0
+/admin/edit-order/18 3 59577 0 0
+/admin/orders-options 13 262694 0 2
+/detail-orders/12 1 45060 0 0
+/page/wodsports 3 110907 0 0
+/admin/edit-static-pages/4 7 234299 0 0
+/admin/edit-product/windex-glass-cleaner-1-gl 14 537006 0 0
+/product/product-test_11 1 62964 0 0
+/admin/js/kcfinder/css/index.php 18 16140 0 0
+/temp.php 1 207 1 1
+/category/category_7 22 841970 0 0
+/admin/edit-category-product/category_5 5 119095 0 0
+/modules/mod_feed/tmpl/mod_feed.php 2 414 2 2
+/admin/edit-product/toilet-tissue-universal-2-ply 4 157273 0 0
+/category/avava-24 4 148073 0 0
+/admin/edit-product/ar1039 22 888318 0 0
+/category/hranenie1 4 147499 0 0
+/KlfhsYYs 1 207 1 1
+/admin/edit-static-pages/7 5 60025 0 0
+/admin/edit-order/53 11 174800 0 1
+/search/ 65 1122194 1 1
+/cache.php 1 207 1 1
+/admin/edit-category-product/dispensers 5 117297 0 0
+/orders 54 1718263 0 0
+/admin/orders-options/ 18 348573 0 0
+/uploads_images/product/thumbs/ 3 14634 0 0
+/wp-content/plugins/sharexy/ajaxresponder.php 2 414 2 2
+/product/affinity-manual-soap-dispenser-1-25-l 5 282165 0 0
+/recovery/a0YM24CjzQ 11 371573 1 0
+/admin/edit-product/pink-hand-soap 6 232528 0 0
+/pay-success 17 643819 1 0
+/admin/edit-product/foam-all-hand-body-soap 4 155850 0 0
+/wp-content/plugins/codecanyon-157782-video-gallery-wordpress-plugin-w-youtube-vimeo-/admin/upload.php 5 1035 5 5
+/admin/static-pages/new 1 16788 0 0
+/modules/homepageadvertise2/uploadimage.php 2 414 2 2
+/admin/home 14 270282 0 1
+/admin/fonts/fontawesome-webfont.woff2 31 1774680 0 1
+/product/comet-w-bleach 4 230543 0 0
+/page/dostavka 6 239094 0 0
+/admin/static-pages/ 29 524253 0 0
+/wp-content/plugins/wpstorecart/php/upload.php 4 828 3 3
+/admin/edit-pages/new 2 22578 0 0
+/admin/edit-product/enmotion-roll-towel 1 42763 0 0
+/wp-admin/plugin-editor.php 4 828 4 4
+/modules/advancedslider/ajax_advancedsliderUpload.php 1 207 1 1
+/http://zupplybox.com/pay-ipn 3 621 1 1
+/admin/edit-static-pages/new 7 81865 0 1
+/modules/pk_flexmenu/ajax/upload.php 1 207 1 1
+/page/obmen-i-vozvrat-tovara 2 76492 0 0
+/detail-orders/category/1 1 154 0 0
+/product/towel-multifold-white-scottfold 4 246322 0 0
+/page/how-to-buy 1 36545 0 0
+/admin/edit-product/gojo-tfx-dispenser 3 115078 0 0
+/wp-content/plugins/gallery-slider/launch.php 1 207 1 1
+/admin/edit-product/disposable-urinal-floor-mat 4 158308 0 0
+/profile/ 19 758172 0 0
+/page/garantiya 9 355374 0 1
+/CHANGELOG.txt 1 207 1 0
+/cart 76 2581074 2 0
+/video/ 1 732 0 0
+/admin/edit-category-product/category_2 2 47814 0 0
+/video/zupply.mp4 39 4595988 1 2
+/js/ui.autocomplete 1 207 0 0
+/cod.php 1 207 1 1
+/media/revolution/js/2.0.2 1 207 0 1
+/wp-content/plugins/dzs-portfolio/admin/upload.php 5 1035 5 5
+/admin/edit-product/urinal-screen-wave-3d 48 1915022 0 2
+/category/category_3 8 303125 0 0
+//modules/pk_vertflexmenu/ajax/upload.php 1 207 1 1
+/index.php 3 621 2 2
+/admin/edit-static-pages/8 1 11971 0 0
+/admin/edit-product/glove-nitrile-blu 17 622181 0 1
+END_SIDER

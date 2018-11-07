@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Edit product</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="embrace clear">
+	<header class="clear">
+		<div class="fucntionalPanel left">
+			<select name="navigation" id="nav" class="nav">
+				<option value="1">Statistic</option>
+				<option value="2">Orders</option>
+				<option value="3">Settings</option>
+				<option value="4">Poroducts</option>
+				<option value="4">Warehouse</option>
+				<option value="4">Billing</option>
+				<option value="4">Users</option>
+				<option value="4">Team</option> 
+			</select>
+			<i class="icons">fingerprint</i>
+		</div>
+		<div class="secureLabel right"><span>Logged as admin</span> <a href="#"><i class="icons">input</i></a></div>
+		<div class="secureLabel safe right"><i class="icons">lock</i>OverTrust Secure</div>
+	</header>
+	<div class="navigationEmbrace bg clear left">
+		<div class="workArea">
+			<div class="maximize" id="maximize"></div>
+			<div class="minimize" id="minimize"></div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Console</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+	</div>
+	<div class="content clear">
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="products.html"><i class="icons">home</i><li>Products</li></a>
+					<a href="productsedit.html"><i class="icons">queue</i><li>Add new</li></a>
+					<a href="productsupsell.html"><i class="icons">local_mall</i><li>Upsell</li></a>
+					<a href="productstock.html"><i class="icons">local_play</i><li>Stock</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="productscat.html"><i class="icons">content_paste</i><li>Categories</li></a>
+					<a href="productsimport.html"><i class="icons">play_for_work</i><li>CSV import</li></a>
+					<a href="productsfields.html"><i class="icons">settings_applications</i><li>Product fields</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<h2>Edit Product #00948<i class="icons">settings</i></h2>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Base</h3>
+					<input class="bottom" type="text" placeholder="Title">
+					<input class="bottom" type="text" placeholder="Vendor code">
+					<input class="bottom" type="text" placeholder="Position in group">
+					<input class="bottom" type="text" placeholder="Fast search tags">
+				</div>
+				<div class="boxOneThird">
+					<h3>Storage</h3>
+					<select class="bottom">
+						<option>Select Relative</option>
+						<option>First Category</option>
+						<option>Second Category</option>
+						<option>Third Category</option>
+						<option>Fourth Category</option>
+					</select>
+					<select class="bottom">
+						<option>Select Child</option>
+						<option>First Child</option>
+						<option>Second Child</option>
+						<option>Third Child</option>
+						<option>Fourth Child</option>
+					</select>
+					<select class="bottom">
+						<option>More Child</option>
+						<option>First Child</option>
+						<option>Second Child</option>
+						<option>Third Child</option>
+						<option>Fourth Child</option>
+					</select>
+					<select class="bottom">
+						<option>More Child</option>
+						<option>First Child</option>
+						<option>Second Child</option>
+						<option>Third Child</option>
+						<option>Fourth Child</option>
+					</select>
+				</div>
+				<div class="boxOneThird">
+					<h3>Status</h3>
+					<select class="bottom">
+						<option>Published</option>
+						<option>Archive</option>
+						<option>Coming soon</option>
+						<option>Sold out</option>
+						<option>Do not display</option>
+					</select>
+					<input class="bottom" type="text" placeholder="Date if coming soon">
+					<input class="bottom" type="text" placeholder="Common price">
+					<input type="submit" value="Save">
+				</div>
+			</div>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Notice</h3>
+					<textarea placeholder="Enter inportant notice text"></textarea>
+				</div>
+				<div class="boxOneThird">
+					<h3>Seo description</h3>
+					<textarea placeholder="Enter seo text"></textarea>
+				</div>
+				<div class="boxOneThird">
+					<h3>Upsell</h3>
+					<input class="bottom" type="text" placeholder="Name or Vendor code">
+					<input class="bottom" type="text" placeholder="Upsell discount">
+					<select class="bottom">
+						<option>No recommended products category</option>
+						<option>First Child</option>
+						<option>Second Child</option>
+						<option>Third Child</option>
+						<option>Fourth Child</option>
+					</select>
+				</div>
+			</div>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Labels</h3>
+					<div class="checkBox">
+						<p>
+							<input id="c1" name="checker" type="checkbox">
+							<label for="c1"> <span></span> Bestseller </label>
+						</p>
+						<p>
+							<input id="c2" name="checker" type="checkbox">
+							<label for="c2"> <span></span> Fast delivery </label>
+						</p>
+						<p>
+							<input id="c3" name="checker" type="checkbox">
+							<label for="c3"> <span></span> Perfect condition</label>
+						</p>
+						<p>
+							<input id="c4" name="checker" type="checkbox">
+							<label for="c4"> <span></span> 12 month guarantee </label>
+						</p>
+						<p>
+							<input id="c5" name="checker" type="checkbox">
+							<label for="c5"> <span></span> 14 days for exchange </label>
+						</p>
+					</div>
+				</div>
+				<div class="boxOneThird">
+					<h3>Extra</h3>
+					<div class="checkBox">
+						<p>
+							<input id="r1" name="checker" type="checkbox">
+							<label for="r1"> <span></span> Expert choice </label>
+						</p>
+						<p>
+							<input id="r2" name="checker" type="checkbox">
+							<label for="r2"> <span></span> Out of stock </label>
+						</p>
+						<p>
+							<input id="r3" name="checker" type="checkbox">
+							<label for="r3"> <span></span> Discontinued</label>
+						</p>
+					</div>
+				</div>
+				<div class="boxOneThird">
+					<h3>Stock information</h3>
+						<select class="bottom">
+							<option>No stock</option>
+							<option>First Stock</option>
+							<option>Second Stock</option>
+							<option>Third Stock</option>
+							<option>Fourth Stock</option>
+						</select>
+						<input type="text" placeholder="Sell price if exist">
+				</div>
+			</div>
+		</div>
+		<div class="contentBox clear">
+			<h2>Media<i class="icons">art_track</i></h2>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Thumbnail</h3>
+					<div>
+						<input class="bottom" type="file" placeholder="Select thumb">
+					</div>
+					<input type="submit" value="Upload">
+				</div>
+				<div class="boxOneThird">
+					<h3>Gallery photos</h3>
+					<div>
+						<input class="bottom" type="file" placeholder="Select photos">
+					</div>
+					<input type="submit" value="Upload">
+				</div>
+				<div class="boxOneThird">
+					<h3>Base color</h3>
+					<div>
+						<input type="color" name="bg" value="#ff0000">
+					</div>
+				</div>
+			</div>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Add color</h3>
+					<div class="bottom">
+						<input type="color" name="bg" value="#ff0000">
+					</div>
+					<input class="bottom" type="text" placeholder="Color price">
+					<input type="submit" value="Add">
+				</div>
+			</div>
+		</div>
+		<div class="contentBox clear">
+			<h2>Warehouses<i class="icons">storage</i></h2>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Warehouse #1</h3>
+					<input class="bottom" type="text" placeholder="Price">
+					<input type="text" placeholder="Clear price">
+				</div>
+				<div class="boxOneThird">
+					<h3>Extra</h3>
+					<select class="bottom">
+						<option>Published</option>
+						<option>Archive</option>
+						<option>Coming soon</option>
+						<option>Sold out</option>
+						<option>Do not display</option>
+					</select>
+					<select class="bottom">
+						<option>No stock</option>
+						<option>Stock 1</option>
+						<option>Stock 2</option>
+						<option>Stock 3</option>
+						<option>Stock 4</option>
+					</select>
+				</div>
+				<div class="boxOneThird">
+					<h3>Information</h3>
+					<p>Region tax - 20%, total product price without taxes 400$. Any other information from warehouses</p>
+				</div>
+			</div>
+			<div class="fist clear">
+				<div class="boxOneThird">
+					<h3>Warehouse #2</h3>
+					<input class="bottom" type="text" placeholder="Price">
+					<input type="text" placeholder="Clear price">
+				</div>
+				<div class="boxOneThird">
+					<h3>Extra</h3>
+					<select class="bottom">
+						<option>Published</option>
+						<option>Archive</option>
+						<option>Coming soon</option>
+						<option>Sold out</option>
+						<option>Do not display</option>
+					</select>
+					<select class="bottom">
+						<option>No stock</option>
+						<option>Stock 1</option>
+						<option>Stock 2</option>
+						<option>Stock 3</option>
+						<option>Stock 4</option>
+					</select>
+				</div>
+				<div class="boxOneThird">
+					<h3>Information</h3>
+					<p>Region tax - 20%, total product price without taxes 400$. Any other information from warehouses</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

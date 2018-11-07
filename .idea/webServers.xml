@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a326270d-b0d8-4313-a7cf-46a0b5db75c9" name="fbkveu" url="http://fbkveu.ftp.ukraine.com.ua">
+        <fileTransfer host="fbkveu.ftp.ukraine.com.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="91a142da-c804-4ad0-8e83-05ed0b28f175" name="zupply" url="http://ftp.ipage.com">
+        <fileTransfer host="ftp.ipage.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="81c4a3f5-6693-4614-bc0a-ad8a7c96b20f" name="apple_new" url="http://185.14.31.61">
+        <fileTransfer host="185.14.31.61" port="22" rootFolder="/usr/local/www/apache24/data/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38ea699f-9bbd-4ae6-963a-c64c67e496e1" name="weben" url="http://webene00.ftp.tools">
+        <fileTransfer host="webene00.ftp.tools" port="21" rootFolder="/webenergy.pro">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="09aa9f14-cbab-4557-92e4-5023d66ef6bf" name="maste000" url="http://maste000.ftp.tools">
+        <fileTransfer host="maste000.ftp.tools" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

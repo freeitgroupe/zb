@@ -1,0 +1,208 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+body {line-height:1; }
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block; }
+nav ul {list-style:none; }
+blockquote, q {quotes:none; }
+blockquote:before, blockquote:after,
+q:before, q:after {content:''; content:none; }
+a {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
+ins {background-color:#ff9; color:#000; text-decoration:none; }
+mark {background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del {text-decoration: line-through; }
+abbr[title], dfn[title] {border-bottom:1px dotted; cursor:help; }
+table {border-collapse:collapse; border-spacing:0; }
+hr {display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0; }
+input, select {vertical-align:middle; }
+
+@font-face {font-family: "box"; src:url("fonts/box.eot"); src:url("fonts/box.eot?#iefix") format("embedded-opentype"), url("fonts/box.woff") format("woff"), url("fonts/box.ttf") format("truetype"), url("fonts/box.svg#box") format("svg"); font-weight: normal; font-style: normal; }
+
+
+body {
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+}
+*{font-family: 'Oxygen', sans-serif;}
+input[type=submit]:hover, button:hover{cursor: pointer;}
+h1,h2,h3,h4,h5,h6{font-family: 'Cabin', sans-serif;font-weight: normal;}
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Cabin', sans-serif;
+
+
+/* base styles*/
+
+.embraceFull{width: 100%; }
+.embrace{max-width: 1200px; margin: 0 auto; overflow: hidden; }
+:selection { background: #FFDD2D; }
+.clear:after, nav:after, .singleMobile.clear li:after {clear: both; content: ""; display: block; height: 0; }
+.left{float: left}
+.right{float:right;}
+
+
+.headerBox {
+    background: rgb(38, 50, 56) url("images/logow.png") no-repeat scroll 97% 9px / 10% auto;
+    height: 35px;
+    width: 100%;
+}
+
+
+.adminNavigation {
+    background-color: rgb(38, 50, 56);
+    color: rgb(133, 189, 175);
+    float: left;
+    min-height: 100vh;
+    width: 200px;
+}
+
+.ajaksContent {
+    float: left;
+    width: 85%;
+}
+
+.childNavigation {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: rgb(177, 191, 177);
+    display: block;
+    font-family: PT Sans;
+    font-size: 13px;
+    padding: 12px 15px 12px 50px;
+    text-decoration: none;
+}
+
+
+.childNavigation:hover {
+    color: rgb(128,203,196);
+}
+
+
+.adminNavigation h3 {
+    background: rgba(0, 0, 0, 0) url("images/i.png") no-repeat scroll 10px center;
+    color: rgb(175, 189, 175);
+    cursor: pointer;
+    font-family: PT Sans;
+    font-size: 15px;
+    padding: 12px 10px 12px 42px;
+    text-align: left;
+}
+
+
+.adminNavigation h3:hover {
+    background: rgba(0, 0, 0, 0) url("images/ih.png") no-repeat scroll 10px center;
+    color: rgb(128,203,196);
+}
+
+.ui-accordion-header-active {
+	background: rgba(0, 0, 0, 0) url("images/ih.png") no-repeat scroll 10px center !important;
+    color: rgb(128,203,196) !important;
+}
+
+#accordion div {
+    height: auto;
+}
+
+.statBox {
+    padding: 2% 5%;
+}
+
+.infoBox {
+    background-color: rgb(255, 255, 255);
+    margin: 0 1% 1%;
+    padding: 2%;
+    width: 44%;
+}
+
+.statInformation {
+    float: right;
+    text-align: right;
+}
+
+.statInformation p.counter {
+    font-size: 26px;
+    padding: 0 0 5px;
+}
+.statInformation p {
+    color: rgb(102, 102, 153);
+    font-size: 13px;
+}
+
+.infoBoxFull {
+    background-color: rgb(255, 255, 255);
+    margin: 0 6%;
+    padding: 2%;
+    width: auto;
+}
+
+.infoBox img {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 10%;
+}
+
+
+
+.infoBoxFull img {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 10%;
+}
+
+
+
+.statInformation p.counterBig {
+    font-size: 46px;
+    padding: 10px 0;
+}
+
+
+.statInformation p.infoBig {
+    font-size: 13px;
+    padding: 5px 0 0;
+}
+
+.formBox {
+    background-color: rgb(255, 255, 255);
+    margin: 1% 6%;
+    padding: 2%;
+}
+
+.fullWidthForm {
+    background-color: rgb(255, 255, 255);
+    margin: 1% 6%;
+    padding: 2%;
+}
+
+
+.ajaksContent input {
+    background-color: rgb(241, 241, 241);
+    border: medium none;
+    margin: 0 15px 0 0;
+    padding: 20px 30px;
+}
+
+
+.button-box {
+    background-color: rgb(29, 166, 184);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 1% 6%;
+    padding: 20px 30px;
+}
+
+
+.button-box:hover {
+    background-color: rgb(33, 180, 199);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+2017-12-17 11:30:20 success update stock info in products table!<br/>success update stock info in stock table!
+2018-08-31 09:58:28 Error update category_views in category;
+2018-08-31 10:21:13 Error update category_views in category;

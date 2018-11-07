@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Menu settings</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="embrace clear">
+	<header class="clear">
+		<div class="fucntionalPanel left">
+			<select name="navigation" id="nav" class="nav">
+				<option value="1">Statistic</option>
+				<option value="2">Orders</option>
+				<option value="3">Settings</option>
+				<option value="4">Poroducts</option>
+				<option value="4">Warehouse</option>
+				<option value="4">Billing</option>
+				<option value="4">Users</option>
+				<option value="4">Team</option>
+			</select>
+			<i class="icons">fingerprint</i>
+		</div>
+		<div class="secureLabel right"><span>Logged as admin</span> <a href="#"><i class="icons">input</i></a></div>
+		<div class="secureLabel safe right"><i class="icons">lock</i>OverTrust Secure</div>
+	</header>
+	<div class="navigationEmbrace bg clear left">
+		<div class="workArea">
+			<div class="maximize" id="maximize"></div>
+			<div class="minimize" id="minimize"></div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Console</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+		<div class="navigationBox">
+			<div class="boxUnit">
+				<a href="#"><div class="listName">Pages</div></a>
+			</div>
+		</div>
+	</div>
+	<div class="content clear">
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="settings.html"><i class="icons">settings</i><li>Main settings</li></a>
+					<a href="settingstexts.html"><i class="icons">content_paste</i><li>Static texts</li></a>
+					<a href="settingsexport.html"><i class="icons">cloud_upload</i><li>Export</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<nav class="pageNav clear">
+				<ul>
+					<a href="settingspages.html"><i class="icons">library_books</i><li>Pages</li></a>
+					<a href="settingsmenu.html"><i class="icons">playlist_add</i><li>Menu</li></a>
+					<a href="settingsbilling.html"><i class="icons">monetization_on</i><li>Billing</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="contentBox clear">
+			<h2>Manage menu<i class="icons">clear_all</i></h2>
+			<div class="fist clear">
+				<div class="boxHalf">
+					<h3>Main menu</h3>
+					<table>
+						<tbody>
+							<tr>
+								<th>Order</th>
+								<th>Page name</th>
+								<th style="text-align: center;">Delete</th>
+							</tr>
+							<tr>
+								<td class="move">1</td>
+								<td class="move">About</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">1.1</td>
+								<td class="move">Our clients</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">1.2</td>
+								<td class="move">Our partners</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">2</td>
+								<td class="move">Goods</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">3</td>
+								<td class="move">Contacts</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="boxHalf">
+					<h3>Footer menu</h3>
+					<table>
+						<tbody>
+							<tr>
+								<th>Order</th>
+								<th>Page name</th>
+								<th style="text-align: center;">Delete</th>
+							</tr>
+							<tr>
+								<td class="move">1</td>
+								<td class="move">Billing</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">2</td>
+								<td class="move">Privacy</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+							<tr>
+								<td class="move">3</td>
+								<td class="move">Vacancy</td>
+								<td style="text-align: center;" class="move"><a class="delete" href="#"><i class="icons delete">delete</i></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="contentBox clear">
+			<h2>Add main menu item<i class="icons">add_circle</i></h2>
+				<div class="fist">
+					<div class="boxOneThird">
+						<h3>Select page</h3>
+						<select>
+							<option value="1">About</option>
+							<option value="2">Billing</option>
+							<option value="3">Contacts</option>
+							<option value="4">Goods</option>
+							<option value="5">Privacy</option>
+						</select>
+						<input class="top" type="text" placeholder="Or paste URL">
+					</div>
+					<div class="boxOneThird">
+						<h3>Select child</h3>
+						<select>
+							<option value="1">None</option>
+							<option value="2">Billing</option>
+							<option value="3">Contacts</option>
+						</select>
+					</div>
+					<div class="boxOneThird">
+						<h3>Text in menu</h3>
+						<input type="text" placeholder="frontend menu text">
+					</div>
+				</div>
+				<input class="fat" type="submit" value="Add item">
+		</div>
+		<div class="contentBox clear">
+			<h2>Add footer menu item<i class="icons">add_circle</i></h2>
+				<div class="fist">
+					<div class="boxHalf">
+						<h3>Select page</h3>
+						<select>
+							<option value="1">About</option>
+							<option value="2">Billing</option>
+							<option value="3">Contacts</option>
+							<option value="4">Goods</option>
+							<option value="5">Privacy</option>
+						</select>
+						<input class="top" type="text" placeholder="Or paste URL">
+					</div>
+					<div class="boxHalf">
+						<h3>Text in menu</h3>
+						<input type="text" placeholder="frontend menu text">
+					</div>
+				</div>
+				<input class="fat" type="submit" value="Add item">
+		</div>
+
+		
+
+	</div>
+</div>
+</body>
+</html>
