@@ -7,8 +7,6 @@ if(!array_key_exists('pages_alias', $match)) header("Location:" . PATH_ADMIN . '
 if($match['pages_alias'] != 'new'){
     if(!$discountInfo = findOneParam('discount', 'alias', $match['pages_alias'])) header("Location:" . PATH_ADMIN . 'discount');
     $discountId = $discountInfo['id'];
-    debug_arr($discountInfo);
-
 }
 
 require_once TMP_ADM . $view . '.php';

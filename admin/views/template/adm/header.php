@@ -1,4 +1,3 @@
-<?php defined("CATALOG") or die("Access denied");?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +14,7 @@
     <script src="../../js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="<?=PATH_ADMIN?>js/jquery.the-modal.js"></script>
     <script type="text/javascript" src="<?=PATH_ADMIN?>js/accounting.js"></script>
-    <script src="<?PATH_ADMIN?>lib/datepicker/js/datepicker.min.js"></script>
+    <script type="text/javascript" src="<?=PATH_ADMIN?>lib/datepicker/js/datepicker.min.js"></script>
     <style>
         .err_adm{
             color: #ff0f00!important;
