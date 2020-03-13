@@ -1,2 +1,3 @@
 *.rbc
 include/db_connect.php
+zb_conf/new.txt
